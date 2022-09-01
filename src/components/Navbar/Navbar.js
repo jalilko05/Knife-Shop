@@ -19,8 +19,10 @@ export const Header = styled.header`
  justify-content: center;
  width: 100%;
  height: 71px;
- background: rgba(33, 33, 33, 0.8);
- backdrop-filter: blur(11px); 
+ position: absolute;
+ z-index: 999;
+  background: rgba(33, 33, 33, 0.8); 
+  backdrop-filter: blur(11px);  
 `
 export const Container = styled.div`
  width: 100%;
@@ -32,12 +34,17 @@ export const Container = styled.div`
 
  .left{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 242px;
- }
- .left p{
+    height: 24px;
     color: white;
  }
+
+ span{
+   font-size: 18px;
+ }
+
  .right{
     display: flex;
     justify-content: space-between;

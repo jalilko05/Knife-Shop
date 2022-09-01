@@ -5,7 +5,7 @@ const getType = (type) =>{
         border: "none",
         border: "2px solid #C80000",
         background: "none",
-        color: "black",
+        color: "white",
     }
     case 'red' : return{
         border: "none",
@@ -26,7 +26,7 @@ export const Container = styled.button`
  justify-content: center;
  font-style: normal;
  font-weight: 600;
- font-size: 14px;
+ font-size: 16px;
  line-height: 17px;
  width: 165px;
  height: 49px;
