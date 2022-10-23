@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Header,Menu, Map, Logo,Shop, Lupa, Email} from "./Navbar.js";
 import { Link } from "react-router-dom";
-import Slider from "../Home/Slider/slider.jsx"
+
 
 
 const Navbar = () =>{
@@ -24,7 +24,6 @@ const Navbar = () =>{
                    </div>
                 </Container>
             </Header>
-            <Slider/>
         </div>
     )
 }

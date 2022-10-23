@@ -10,7 +10,7 @@ const Slider = () =>{
     return(
         <Wrapper>
           <Icon.Left onClick={() => slide.current.prev()}/>
-          <Container ref={slide}>
+          <Container autoplay ref={slide}>
            <Box>
            <Content/>
            <Card src={Slide1} alt="slide1"/>
