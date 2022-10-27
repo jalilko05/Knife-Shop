@@ -1,7 +1,6 @@
+import { Descriptions } from "antd";
 import React from "react";
-import Meat1 from '../../../assets/images/meat1.svg'
-import Meat2 from '../../../assets/images/meat2.svg'
-import { Wrapper,Container, Logo} from "./style";
+import { Wrapper,Container, Logo, Legend, LeftSection, Info} from "./style";
 
 
 const Footer = () =>{
@@ -9,13 +8,13 @@ const Footer = () =>{
         <>
           <Wrapper>
             <Container>
-                <div>
-                    <div>
+                <LeftSection>
+                    <Legend>
                         <Logo/>
-                        <span>легендарные ножи, создающие шедевры</span>
-                    </div>
+                        <p>легендарные ножи, создающие шедевры</p>
+                    </Legend>
                     
-                    <div>
+                    <Info>
                         <h4>
                              Компания «Tuotown» – эксклюзивный представитель профессиональных
                              кухонных ножей, изготовленных лучшими мастерами Восточной Азии 
@@ -27,14 +26,10 @@ const Footer = () =>{
                             Сочетают в себе вековые традиции и новейшие разработки. 
                             Также предлагаем широкий ассортимент сопутствующих товаров.
                         </h4>
-                    </div>
-                </div>
+                    </Info>
+                </LeftSection>
 
-                <div>
-                    <div>
-                        
-                    </div>
-                </div>
+                
             </Container>
           </Wrapper>
         </>
