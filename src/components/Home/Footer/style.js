@@ -1,8 +1,18 @@
 import styled from "styled-components";
 import { ReactComponent as logo } from '../../../assets/icons/logo.svg'
+import { ReactComponent as facebook } from '../../../assets/icons/facebook.svg'
+import { ReactComponent as vk } from '../../../assets/icons/vk.svg'
+import { ReactComponent as insta } from '../../../assets/icons/instagramm.svg'
+import { ReactComponent as youtube } from '../../../assets/icons/youtube.svg'
+import { ReactComponent as matrix } from '../../../assets/icons/image 9.svg'
 
 
 export const Logo = styled(logo)``
+export const Facebook =  styled(facebook)``
+export const Vk =  styled(vk)``
+export const Insta =  styled(insta)``
+export const Youtube =  styled(youtube)``
+export const Matrix =  styled(matrix)``
 
 
 export const Wrapper = styled.div`
@@ -18,7 +28,9 @@ export const Container = styled.div`
  max-width: 1440px;
  width: 100%;
  background: #272727;
- padding: 50px;
+ padding: 40px 50px;
+ display: flex;
+ justify-content: space-between;
 `
 
 export const LeftSection = styled.div`
@@ -48,6 +60,81 @@ margin: 20px 0;
 }
 `
 export const MidSection = styled.div`
+ width: 420px;
 
 `
+export const Mid1 = styled.div`
+ h3{
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+ }
+`
+export const IntoMid = styled.div`
+ width: 420px;
+span{
+  color: white;
+  opacity: 0.5;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 30px 0 0 ;
+}
+`
 
+export const Mid2 = styled.div`
+margin: 50px 0;
+h3{
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+ }
+`
+export const Mid3 = styled.div`
+display: flex;
+justify-content: space-between;
+width: 300px;
+ h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 17px;
+  line-height: 28px;
+  color: #FFFFFF;
+ }
+`
+
+export const RightSection = styled.div`
+width: 300px;
+
+ h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-size: 17px;
+line-height: 28px;
+color: #FFFFFF;
+ }
+ h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-size: 20px;
+line-height: 28px;
+color: #FFFFFF;
+
+ }
+ h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+margin: 25px 0;
+ }
+`
