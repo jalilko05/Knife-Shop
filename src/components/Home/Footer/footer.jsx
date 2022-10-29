@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper,Container, Logo, Legend, LeftSection, Info, MidSection, Mid2, Mid1,Mid3, IntoMid, RightSection, Facebook, Vk, Insta, Youtube, Matrix} from "./style";
+import { Wrapper,Container, Logo, Legend, LeftSection, Info, MidSection, Mid2, Mid1,Mid3, IntoMid, RightSection, Facebook, Vk, Insta, Youtube, Wrapper2, Container2, Law, Tekama} from "./style";
 
 
 const Footer = () =>{
@@ -62,10 +62,22 @@ const Footer = () =>{
                     <h4>tuotown@mail.ru</h4>
                     <h4>08:00 — 18:00, ежедневно</h4>
                     <h4>Россия, Москва, МКАД, 19-й километр, вл20с1, вход Ф, 22-68-70</h4>
-                    <Matrix/>
+                    <Vk/>
                  </RightSection>
             </Container>
           </Wrapper>
+
+          <Wrapper2>
+            <Container2>
+                <Law>
+                    <h3>TUOTOWN © 2021 Торговая марка TUOTOWN зарегистрирована. Все права защищены и принадлежат правообладателям.</h3>
+                </Law>
+                
+                <Tekama>
+                    <h3>TEKAMA</h3>
+                </Tekama>
+            </Container2>
+          </Wrapper2>
         </>
     )
 }
